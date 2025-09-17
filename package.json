@@ -1,0 +1,22 @@
+{
+  "name": "expensetracker",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun index.ts",
+    "dev": "bun --watch index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.7.2",
+    "axios": "^1.12.2",
+    "hono": "^4.9.7",
+    "zod": "^4.1.8"
+  }
+}
