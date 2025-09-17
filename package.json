@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "start": "bun index.ts",
+    "deploy":"cd ./frontend && bun run build && cd ../ && bun run start",
     "dev": "bun --watch index.ts"
   },
   "devDependencies": {
